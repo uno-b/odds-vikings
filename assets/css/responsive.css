@@ -1,0 +1,559 @@
+/* Greater than M Device :1200px. */
+@media (min-width: 768px){
+    .vh-md-10{
+        height: 20vh;
+    }
+    .vh-md-20{
+        height: 20vh;
+    }
+    .vh-md-50{
+        height: 50vh;
+    }
+    .vh-md-80{
+        height: 80vh;
+    }
+    .vh-md-90{
+        height: 80vh;
+    }
+    .vh-md-100{
+        height: 100vh;
+    }
+    
+    .mt-md-90{
+        margin-top: 90px;
+    }
+
+    .version-img-left img {
+        right: 40px;
+        top: 10%;
+        position: absolute;
+        max-width: max-content;
+        height: 80%;
+        width: initial;
+    }
+    .version-img-right img {
+        left: 40px;
+        top: 10%;
+        position: absolute;
+        max-width: max-content;
+        height: 80%;
+        width: initial;
+    }
+}
+
+
+
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1449px) {
+    
+    .sign-up-left-wrapper {
+        padding-top: 20px;
+        /* display: block; */
+    }
+    .sign-up-form-title-area h3{
+        margin-bottom: 0px;
+    }
+    .sign-logo {
+        margin-bottom: 10px;
+    }
+    .sign-single-input input{
+        padding: 8px 10px;
+        margin-bottom: 12px;
+    }
+    .sign-single-input .nice-select{
+        height: 46px;
+        line-height: 46px;
+    }
+    .sign-up-main-form {
+        margin-top: 10px;
+    }
+    .input-title {
+        margin-top: 10px;
+    }
+    .input-title h4{
+        margin-bottom: 4px;
+    }
+    .cheakbox-area {
+        margin-top: 5px;
+    }
+    .submit-btn-area {
+        margin-top: 5px;
+    }
+    .sign-up-right-wrapper {
+        padding: 0px 60px;
+    }
+    .sign-up-right-content-blk p{
+        font-size: 16px;
+    }
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .single-feature-wrapper {
+        min-height: 412px;
+    }
+    .banner-cotent h1 {
+        font-size: 55px;
+    }
+
+    .version-img-lett img {
+        margin-left: 0px;
+    }
+    .version-img-right img {
+        margin-left: 0px;
+    }
+    .lrg-txt {
+        font-size: 49px;
+    }
+    .sm-txt {
+        font-size: 48px;
+    }
+    .xsm-txt {
+        font-size: 47px;
+    }
+
+    /* Register page */
+    .registration-suc-text-wrap {
+        padding-right: 100px;
+    }
+
+    /* sign-up */
+    .sign-up-left-wrapper {
+        padding: 0px 30px;
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+    .sign-logo {
+        margin-bottom: 20px;
+    }
+    .sign-up-main-form {
+        margin-top: 25px;
+    }
+    .input-title {
+        margin-top: 20px;
+    }
+    .cheakbox-area {
+        margin-top: 20px;
+    }
+    .submit-btn-area {
+        margin-top: 20px;
+    }
+    .sign-up-right-wrapper {
+        padding: 0px 60px;
+    }
+
+    .sign-up-right-wrapper {
+        padding: 0px 30px;
+        height: auto;
+    }
+    .how-banner-img img {
+        margin-left: 0px;
+    }
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .banner-cotent h1 {
+        font-size: 42px;
+        color: #262626;
+    }
+    .main-menu ul li a {
+        padding: 0px 12px;
+    }
+    .sign-area a.btn {
+        width: 101px;
+        margin: 0px 3px;
+        padding: 11px 14px;
+        font-size: 13px;
+    }
+    .single-feature-wrapper {
+        min-height: 437px;
+    }
+    .sign-area {
+        margin-left: 13px;
+    }
+    .feature-title h3 {
+        font-size: 20px;
+    }
+    .singele-pricing-table.p-min-height {
+        min-height: 525px;
+    }
+    .version-img-left img {
+        margin-left: 0px;
+    }
+    .version-img-right img {
+        margin-left: 0px;
+    }
+
+    .lrg-txt {
+        font-size: 46px;
+    }
+    .sm-txt {
+        font-size: 46px;
+    }
+    .xsm-txt {
+        font-size: 45px;
+    }
+
+    /* register page */
+    .registration-suc-text-wrap {
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 22px;
+        padding-bottom: 30px;
+    }
+    .registration-suc-area- {
+        padding-top: 40px;
+    }
+    /* Details page */
+    .details-content-btn a.btn {
+        padding: 8px 15px;
+    }
+
+
+    /* signup */
+    .sign-up-wrapper {
+        flex-wrap: wrap;
+    }
+    .sign-up-left-wrapper {
+        width: 100%;
+        flex: 0 0 100%;
+        padding-bottom: 60px;
+    }
+
+
+    .sign-up-right-wrapper {
+        padding: 40px 110px;
+        height: auto;
+    }
+
+
+
+    .how-hero-content h1 {
+        font-size: 40px;
+    }
+    .how-banner-area {
+        height: 650px;
+    }
+    .h-offer-content-area h2 {
+        font-size: 30px;
+    }
+    .single-offerr-content h2, span {
+        font-size: 30px;
+    }
+    .single-offerr-content p {
+        font-size: 12px;
+    }
+    .h-offer-content-area span {
+        font-size: 14px;
+    }
+    .asked-title h2 {
+        font-size: 36px;
+    }
+    .how-banner-img img {
+        margin-left: 0px;
+    }
+
+
+}
+ 
+
+/* SM Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    .banner-cotent h1 {
+        font-size: 35px;
+    }
+    .banner-img {
+        margin-top: 30px;
+    }
+    .brtands {
+        width: 48%;
+        flex: 0 0 48%;
+        margin-bottom: 15px;
+    }
+    .brands-area-wrapper {
+        flex-wrap: wrap;
+    }
+    .txt-blk-content {
+        margin-top: 20px;
+    }
+    .area-title span {
+        font-size: 17px;
+        margin-bottom: 9px;
+    }
+    .area-title h2 {
+        font-size: 34px;
+    }
+    .area-title {
+        margin-bottom: 15px;
+    }
+    .version-img {
+        margin-bottom: 22px;
+    }
+    .counter-area-wrapper {
+        flex-wrap: wrap;
+    }
+    .single-counter {
+        width: 48%;
+        flex: 0 0 48%;
+    }
+    .version-btn {
+        text-align: center;
+    }
+    .version-area {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .version-content {
+        margin-bottom: 20px;
+    }
+    .text-blk-area-wrapper {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .single-feature-wrapper {
+        margin-bottom: 30px;
+        min-height: auto;
+    }
+    .featurea-img-area {
+        min-height: auto;
+    }
+    .feature-title {
+        min-height: auto;
+    }
+    .pricing-area {
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+    .pricing-title h2 {
+        font-size: 30px;
+        margin-bottom: 32px;
+    }
+    .pricing-list {
+        min-height: auto;
+    }
+    .singele-pricing-table.p-min-height {
+        min-height: auto;
+    }
+
+    .footer-area {
+        text-align: center;
+    }
+    .footer-email {
+        justify-content: center;
+    }
+    .footer-wigget.text-end {
+        text-align: center !important;
+    }
+    .footer-logo {
+        margin-top: 30px;
+    }
+    .header-area {
+        padding-top: 10px;
+    }
+    .sticky-wrapper {
+        height: 55px !important;
+    }
+    .sticky-wrapper.sticky .header-area {
+        padding: 7px 0px;
+    }
+    .version-img-left img {
+        margin-left: 0px;
+    }
+    .version-img-right img {
+        margin-left: 0px;
+    }
+    .lrg-txt {
+        font-size: 44px;
+    }
+    .sm-txt {
+        font-size: 43px;
+    }
+    .xsm-txt {
+        font-size: 42px;
+    }
+
+    /* Register area */
+    .registration-suc-area- {
+        padding: 0px 20px;
+        padding-top: 20px;
+    }
+    .regis-content-header h3 {
+        font-size: 24px;
+    }
+    .regis-content-header {
+        padding: 26px 0px;
+        padding-left: 20px;
+    }
+    .registration-suc-text-wrap {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+
+    /* Details page */
+    .details-content-btn a.btn {
+        padding: 8px 15px;
+    }
+    /* inner page */
+    .inner-content-head h2 {
+        font-size: 30px;
+        letter-spacing: 0px;
+        margin-bottom: 0px;
+    }
+    .inner-content-text-wrapper {
+        padding: 35px 50px;
+    }
+    .inner-content-head {
+        height: 120px;
+    }
+    .inner-content-text-wrapper {
+        padding: 22px 35px;
+    }
+
+    /* signup */
+    .sign-up-wrapper {
+        flex-wrap: wrap;
+    }
+    .sign-up-left-wrapper {
+        width: 100%;
+        flex: 0 0 100%;
+        padding: 0px 30px;
+        padding-bottom: 60px;
+        padding-top: 20px;
+    }
+    .sign-single-input .nice-select {
+        margin-bottom: 15px;
+    }
+    .sign-up-right-wrapper {
+        padding: 0px 60px;
+    }
+    .cheakbox-area {
+        margin-top: 5px;
+    }
+    .submit-btn-area {
+        margin-top: 0px;
+    }
+    .submit-btn-area {
+        margin-top: 0px;
+        flex-wrap: wrap;
+    }
+    .sign-up-right-wrapper {
+        padding: 0px 30px;
+        height: auto;
+        padding-top: 40px;
+    }
+    .sign-up-right-content-blk p {
+        font-size: 15px;
+        line-height: 1.9;
+    }
+    .submit-btn-area button.btn {
+        margin-bottom: 10px;
+    }
+    .details-form-btn {
+        margin-top: 25px;
+    }
+
+
+
+    .how-hero-content {
+        padding-top: 180px;
+        padding-bottom: 70px;
+        text-align: center;
+    }
+    .how-banner-area {
+        height: auto;
+    }
+    .how-hero-content h1 {
+        font-size: 36px;
+    }
+    .h-offer-content-area h2 {
+        font-size: 36px;
+    }
+    .h-offer-img {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .how-offer-area {
+        padding: 45px 0px;
+    }
+    .asked-title h2 {
+        font-size: 36px;
+    }
+    .bettors-contet h1 {
+        font-size: 36px;
+    }
+    .eitten {
+        left: 0;
+    }
+    .asked-area {
+        padding-top: 70px;
+    }
+    .how-banner-img img {
+        margin-left: 0px;
+    }
+
+
+}
+
+
+
+
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .brands-area-wrapper {
+        flex-wrap: nowrap;
+    }
+    .brtands {
+        flex: auto;
+        margin-bottom: 0px;
+    }
+    .counter-area-wrapper {
+        flex-wrap: nowrap;
+    }
+    .single-counter {
+        width: 0;
+        flex: auto;
+    }
+    .singele-pricing-table.p-min-height {
+        min-height: 496px;
+    }
+    .footer-area {
+        text-align: inherit;
+    }
+    .footer-email {
+        justify-content: flex-start;
+    }
+    .footer-wigget.text-end {
+        text-align: right !important;
+    }
+
+    .lrg-txt {
+        font-size: 45px;
+    }
+    .sm-txt {
+        font-size: 45px;
+    }
+    .xsm-txt {
+        font-size: 45px;
+    }
+
+    /* inner page */
+    .inner-content-head h2 {
+        font-size: 45px;
+    }
+    .inner-content-text-wrapper {
+        padding: 35px 50px;
+    }
+    .inner-content-head {
+        height: 160px;
+    }
+
+ 
+}
